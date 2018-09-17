@@ -1,0 +1,87 @@
+@import './modules/reset';
+@import './modules/style.css';
+@import './modules/colors.scss';
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    font-weight: 200;
+    color: $main-text-color;
+}
+
+#app{
+    height: 100vh;
+}
+
+.app {
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: $secondary-color;
+    background: $main-color;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.message {
+    margin: 15px 0;
+}
+
+.first-child {
+    font-size: 11px;
+    color: $main-text-color;
+    opacity: .9;
+    margin: 25px 0px 10px 0px;
+}
+
+.second-child {
+    background: $main-color;
+    color: $secondary-color;
+    display: inline;
+    padding: 4px 6px 8px 6px;
+    border-radius: 8px;
+}
+
+.message-list {
+    box-sizing: border-box;
+    padding: 0 0 0 6px;
+    margin: 0;
+    width: 100%;
+    height: 83vh;
+    overflow: scroll;
+    background: $secondary-color;
+}
+
+.send-message-form {
+    background: $send-message-form;
+    display: flex;
+    box-sizing: border-box;
+    height: 7vh;
+}
+
+.send-message-form input {
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    margin: 0;
+    background: $send-message-form;
+    font-weight: 200; 
+}
+
+.send-message-form input:focus {
+    outline-width: 0;
+}
+
+.send-message-form input:placeholder {
+    color: $placeholder-color;
+}

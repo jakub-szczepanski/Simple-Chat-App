@@ -1,2 +1,5 @@
-# Simple-Chat-App
-Simple chat application
+﻿# React-Chat-App
+
+Simple chat application built with React
+
+# Demo
